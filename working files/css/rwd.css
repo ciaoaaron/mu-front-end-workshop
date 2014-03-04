@@ -1,0 +1,183 @@
+@media screen and (max-width: 1200px){
+	.page-section {
+		padding: 0 10px 60px;
+	}
+	.page-section.mobile-bleed {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.site-header .content-section,
+	.page-section .content-section {
+		width: 100%;
+	}
+	/* Site Header
+	--------------------------------------------------*/
+	.site-header  {
+		padding: 0 10px;
+		margin-bottom: 10px;
+	}
+	.site-header .logo-box {
+		width: 85%;
+	}
+	.site-header .logo {
+		margin: 0;
+	}
+	.site-header .site-nav {
+		width: 15%;
+	}
+	.site-header .menu-text {
+		display: none;
+	}
+	/* Featured Content
+	--------------------------------------------------*/
+	.featured-content {
+		width: 100%;
+		float: none;
+	}
+	.featured-content .date-badge {
+	    font-size: 22px;
+	}
+	.featured-content .date-badge span {
+	    line-height: 25px;	
+	}
+	.featured-content .text-content {
+		float: left;
+	}
+	.featured-content h1 {
+		font-size: 32px;
+	}
+	.main-feature-articles a {
+		padding: 10px;
+	}
+	/* Trending Content
+	--------------------------------------------------*/
+	.trending-content {
+		width: 100%;
+		float: none;
+		overflow: hidden;
+		margin: 50px 0 0;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+	.trending-content .trending-articles,
+	.trending-content .weather-widget {
+		width: 50%;
+		float: left;
+		max-height: 230px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+	.trending-content .trending-articles {
+		padding-right: 10px;
+	}
+	.trending-articles article {
+		width: 48%;
+		max-height: 82px;
+	}
+	.trending-articles img {
+		position: relative;
+		top: -150px;
+	}
+	.trending-content h1 {
+		font-size: 16px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	
+		letter-spacing: 10px;
+	}
+	.trending-articles .article-section{
+		margin-bottom: 5px;
+	}
+	/* Weather Module
+	--------------------------------------------------*/
+	.trending-content .weather-widget {
+		float: right;
+		padding-left: 10px;
+	}
+	.weather-module {
+		width: 32%;
+		padding-right: 1px;
+	}
+	.weather-module .icon {
+    	width: 100%;
+	}
+	.weather-module .weather-date-info {
+		font-size: 16px;
+	
+		padding:  3px 5px;
+	}
+}
+@media screen and (max-width: 595px){
+	.site-header .logo-box,
+	.site-nav {
+		margin-top: 5px;
+	}
+	.site-header .logo {
+		width: 85px;
+		height: 50px;
+		background-size: 137%;
+		background-position: -25px 0;
+	}
+	.hero-image,
+	.trending-articles .article-section {
+		padding: 5px;
+	}
+	/* Trending Content
+	--------------------------------------------------*/
+	.trending-articles article {
+		width: 100%;
+		float: none;
+		margin: 5px 0 0 0;
+	}
+	.trending-articles article:first-child {
+		margin-top: 0;
+	}
+	/* Menu Content
+	--------------------------------------------------*/
+	.menu-content h1 {
+		margin: 50px 0 10px;
+		font-size: 22px;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+}
+@media screen and (max-width: 495px){
+	/* Featured Content
+	--------------------------------------------------*/
+	.hero-image {
+		margin-bottom: 5px;
+	}
+	.featured-content .date-badge {
+		font-size: 16px;
+		padding: 5px;
+	}
+	.featured-content .date-badge span {
+		display: inline;
+	}
+	.featured-content .text-content {
+		padding: 0;
+		width: 100%;
+	}
+	/* Trending Content
+	--------------------------------------------------*/
+	.trending-content h1 {
+		letter-spacing: 0;
+	}
+	/* Weather Module
+	--------------------------------------------------*/
+	.weather-module {
+		width: 100%;
+	}
+	.weather-module .icon {
+		width: 50%;
+		float: left;
+	
+}
+	/* Cerebro Content
+	--------------------------------------------------*/
+	.cerebro-content-section h1 {
+		width: 100%;
+	}
+}

@@ -1,0 +1,360 @@
+/* Spite Icons
+--------------------------------------------------*/
+.icon {
+	background: url('images/sprite.png') no-repeat;
+	background-size: 230px 627px;
+}
+/* Global Reset
+--------------------------------------------------*/
+nav, section, article {
+	display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	font-size: 16px;
+}
+.image-wrapper img {
+	max-width: 100%;
+}
+.page-section {
+	padding-bottom: 105px;
+}
+.site-header .content-section,
+.page-section .content-section {
+	width: 1200px;
+	margin: 0 auto;
+}
+.page-section.black-background {
+	background-color: #000;
+	color: #fff;
+}
+/* Site Header
+--------------------------------------------------*/
+.site-header  {
+	margin-bottom: 45px;
+}
+.site-header .content-section {
+	overflow: hidden;
+}
+.site-header .logo-box{
+	float: left;
+	width: 90%;
+	margin-top: 20px;
+}
+.site-header .logo {
+	background-position:  50% 0;
+	width: 135px;
+	height: 107px;
+	margin: 0 auto;
+}
+.site-header .logo a {
+	display: block;
+	text-indent: -999em;
+	width: 100%;
+	height: 100%;
+}
+.site-header .site-nav {
+	float: right;
+	width: 10%;
+}
+/* Navigation
+--------------------------------------------------*/
+.site-nav {
+	overflow: hidden;
+	margin-top: 20px;
+}
+.site-nav .site-menu {
+	float: right;
+	text-indent: -999em;
+	width: 5%;
+	margin-top: 15px;
+}
+.site-nav .site-menu-click-area {
+	height: 35px;
+	float: right;
+	color: #000;
+}
+.site-nav .site-menu-click-area .menu-text {
+	float: left;
+	line-height: 17px;
+	margin-right: 10px;
+	text-align: right;
+	width: 70px;
+}
+.site-nav .site-menu,
+.site-nav .site-menu:before,
+.site-nav .site-menu:after {
+	display: block;
+	width: 35px;
+	height: 5px;
+	background-color: #000;
+	position: relative;
+}
+.site-nav .site-menu:before,
+.site-nav .site-menu:after {
+	content: "";
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+.site-nav .site-menu:before {
+	top: -10px;
+}
+.site-nav .site-menu:after {
+	top: 10px;
+}
+.site-nav.active .menu-content {
+	background-color:  #000;
+	height: 100%;
+	left: 0;
+	opacity:  0.9;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 0 20px;
+	z-index: 998;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+.site-nav .menu-content {
+	display: none;
+}
+.site-nav .menu-content,
+.site-nav .menu-content a {
+	color: #fff;
+	font-weight: 300;
+}
+.site-nav .menu-content a:hover {
+	color: #ff3a3a;
+}
+.menu-content .content-section {
+	width: 720px;
+	margin: 0 auto; 
+	height: 90%;
+	overflow: scroll;
+}
+.menu-content h1 {
+	font-size: 30px;
+	text-align: center;
+	margin: 60px auto 10px;
+}
+.menu-content .alphabet-section {
+	border-top: 1px solid #848484;
+	padding: 15px 0;
+}
+.menu-content h1 + .alphabet-section {
+	border-top: 0;
+}
+.menu-content .alphabet-section .alphabet {
+	font-size: 30px;
+	font-weight: 100;
+}
+.menu-content .alphabet-section ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.menu-content .alphabet-section li {
+	float: left;
+	/* margin-left: 20px; */
+	padding: 5px 10px;
+}
+.menu-content .alphabet-section li:first-child {
+	margin-left: 0;
+}
+.site-nav.active .menu-content {
+	display: block;
+}
+.site-nav.active .site-menu-click-area {
+	position: relative;
+	color: #fff;
+	z-index: 999;
+}
+.site-nav.active .site-menu,
+.site-nav.active .site-menu:before,
+.site-nav.active .site-menu:after {
+	background-color: #fff;
+}
+
+/* Featued Content, Trending Content Common Styles
+--------------------------------------------------*/
+.featured-content-section,
+.weather-widget,
+.trending-articles .article-section {
+	overflow: hidden;
+}
+.hero-image,
+.trending-articles .article-section {
+	background-color: #000;
+	padding: 10px;
+	
+}
+.featured-content,
+.trending-content {
+	overflow: hidden;
+	width: 68%;
+	float: left;
+}
+.hero-image,
+.article-section {
+	margin-bottom: 30px;
+}
+ {
+	padding-right: 30px;
+}
+.main-feature-articles a {
+	font-size: 14px;
+	padding:  5px;
+	background-color: #656565;
+	text-decoration: none;
+	color:  #fff;
+	display: inline-block;
+}
+.main-feature-articles p{
+	line-height: 20px;
+	text-align: left;
+	margin-bottom: 35px;
+}
+.main-feature-articles a:hover {
+	background-color: #ff3a3a;
+}
+/*  Featued Content Section
+--------------------------------------------------*/
+.featured-content-section {
+	margin-bottom: 80px;
+}
+
+.featured-content {
+	/* padding-right: 10px; */
+}
+/* feature article */
+.featured-content .date-badge {
+	float: left;
+	padding: 10px;
+	background-color: #ff3a3a;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 42px;
+}
+.featured-content .text-content {
+	float: right;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	width:  85%;
+	padding: 0 0 0 20px;
+	text-align: center;
+}
+.featured-content .date-badge span {
+	display: block;
+	text-transform: uppercase;
+	line-height: 37px;
+}
+.featured-content h1 {
+	font-size: 35px;
+	letter-spacing: -1px;
+	text-align: left;
+	line-height: 38px;
+}
+/* Treanding Content Section
+--------------------------------------------------*/
+.trending-content {
+	width: 31%;
+	float: right;
+}
+.trending-content h1 {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 200;
+}
+.trending-articles article {
+	float: left;
+	margin-left: 10px;
+	width: 48.5%;
+	cursor: pointer;
+	max-height: 275px;
+	overflow: hidden;
+}
+.trending-articles article:first-child {
+	margin-left: 0;
+}
+/* Weather Module
+--------------------------------------------------*/
+.weather-module {
+	float: left;
+}
+.weather-module .icon {
+	width: 110px;
+	height: 75px;
+}
+.weather-module .icon.sunny {
+	background-position: 50% -174px;
+}
+.weather-module .icon.cloudy {
+	background-position: 50% -347px;
+}
+.weather-module .icon.thunder {
+	background-position: 50% -522px;
+}
+.weather-module .weather-date-info {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+}
+/* Cerebro Content Section
+--------------------------------------------------*/
+.cerebro-content-section {
+	background-color: #000;
+	text-align: center;
+}
+.cerebro-content-section.content-section {
+	width: 100%;
+}
+.cerebro-content-section h1 {
+	color: #fff;
+	font-size: 32px;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	display: inline-block;
+	margin-top: -30px;
+}
+.cerebro-content-section h1 .header {
+	padding: 5px 0 0 20px;
+	background-color: #000;
+	font-weight: 100;
+}
+.cerebro-content-section h1 .sub-header {
+	color: #c5c5c5;
+	font-size: 14px;
+	text-transform: none;
+	font-weight: 200;
+	letter-spacing: 0;
+	display: block;
+	margin: 20px 0;
+	padding: 0 25px;
+}
+.cerebro-content-section #map-container + p {
+	font-size: 32px;
+	font-weight: 100;
+}
+.cerebro-content-section #map-container + p strong {
+	font-style: italic;
+}
+/* Map
+--------------------------------------------------*/
+#map-container {
+	height: 325px;
+}
